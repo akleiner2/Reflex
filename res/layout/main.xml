@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:clickable="false"
+              android:background="@drawable/level1"
+              android:gravity="center_horizontal"
+        >
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="175dp"
+            >
+    <Button
+        android:onClick="updateScore"
+        android:text="click me!"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:id="@+id/button1"
+        android:layout_weight="2"
+        android:background="#FFFFFFFF"
+        android:textColor="#000"
+       />
+
+        <Button
+            android:onClick="updateScore"
+            android:text="click me too!"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:id="@+id/button2"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="2"
+            android:background="#FFFFFFFF"
+            android:textColor="#000"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingTop="400dp"
+     >
+        <Button
+                android:onClick="updateScore"
+                android:text="click me!"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:id="@+id/button3"
+                android:layout_weight="2"
+                android:background="#FFFFFFFF"
+                android:textColor="#000"
+                />
+
+        <Button
+                android:onClick="updateScore"
+                android:text="click me too!"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:id="@+id/button4"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="2"
+                android:background="#FFFFFFFF"
+                android:textColor="#000"
+                />
+    </LinearLayout>
+
+    <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="65dp"
+
+                >
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Time Remaining"
+                android:layout_marginLeft="350dp"
+                android:layout_marginTop="630dp"
+                android:textSize="35dp"
+                android:id="@+id/timer"/>
+                </LinearLayout>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello World!"
+            android:textSize="35dp"
+            android:layout_alignParentLeft="true" android:layout_marginLeft="284dp" android:layout_alignParentTop="true"
+            android:layout_marginTop="825dp"
+            android:id="@+id/score"/>
+</RelativeLayout>
+

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/win">
+
+    <LinearLayout android:layout_width="wrap_content"
+                  android:layout_height="85dp"
+                  android:layout_marginTop="670dp"
+                  android:layout_marginLeft= "85dp">
+
+        <Button android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:id="@+id/start"
+                android:text="Play Again?"
+                android:onClick="moveOn"
+                android:background="#00dafb"
+                />
+
+        <Button android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:id="@+id/quit"
+                android:text="Quit?"
+                android:layout_marginLeft="240dp"
+                android:onClick="quit"
+                android:background="#00dafb"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
